@@ -1,0 +1,77 @@
+.watch {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.watch:hover {
+    background-color: #2518dd;
+}
+
+.watch:active {
+    background-color: #2518dd;
+    box-shadow: 0 5px #666;
+    transform: translateY(4PX);
+}
+
+.listen {
+    border-radius: 4px;
+    background-color: #0a95c0;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.liste span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.listen span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.listen:hover span {
+    padding-right: 25px;
+}
+
+.listen:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.game {
+    background-color: #11d378;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+
+.game:hover {
+    background-color: #0c69e2;
+    color: white;
+}
